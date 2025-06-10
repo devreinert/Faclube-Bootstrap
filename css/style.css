@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+.cabecalho {
+    background-color: #333;
+    height: 150px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+
+}
+
+
+section {
+    margin-top: 100px;
+}
+
+.grid-cr7 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-gap: 30px;
+    padding: 10px;
+    min-width: 800px;
+
+}
+
+.card-cr7:hover {
+    transform: scale(1.2);
+}
+
+.card-cr7 {
+    transition: 0.5 ease;
+    cursor: pointer;
+}
+
+.tabelaTitulos{
+    margin:10px auto;
+    text-align: center;
+    color: #140606;
+  
+
+}
+.nomeacaoTabela{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1f0505;
+    padding: 5px;
+    border: transparent;
+
+}
+tr,th,td{
+    border: 1px solid #0c0101;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+tr.td{ 
+    font-size: 14px;
+
+}
+
+
+
+tr, th, td:hover{
+    transform: scale(1.2);
+
+}
